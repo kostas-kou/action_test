@@ -6,7 +6,7 @@ global:
   postgresql:
     postgresqlDatabase: rems
     postgresqlUsername: random_un_test
-    postgresqlPassword: random_pw
+    postgresqlPassword: random_pw_test
 #   imageRegistry: myRegistryName
 #   imagePullSecrets:
 #     - myRegistryKeySecretName
