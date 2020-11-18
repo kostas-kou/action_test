@@ -3,6 +3,9 @@ name: Check the values for changes
 on:
   push:
     branches: [ main ]
+    types: [labeled]
+    paths:
+      - postgresql-chart/values.yaml
   pull_request:
     branches: [ main ]
 
