@@ -1,11 +1,10 @@
 name: Check the values for changes
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
-    branches: [main]
-    types: [labeled]
-    paths:
-      - postgresql-chart/values.yml
+    branches: [ main ]
 
 jobs:
 
