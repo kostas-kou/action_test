@@ -1,5 +1,6 @@
 # action_test
 allo ena test
+kai akoma ena
 
 ## Parameters
 
