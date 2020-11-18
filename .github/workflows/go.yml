@@ -2,7 +2,7 @@ name: Check the values for changes
 
 on:
   pull_request:
-    branches: [master]
+    branches: [main]
     types: [labeled]
     paths:
       - postgresql-chart/values.yml
