@@ -5,7 +5,8 @@ on:
     paths:
       - postgresql-chart/values.yaml
   pull_request:
-    branches: [ main ]
+    paths:
+      - postgresql-chart/values.yaml
 
 jobs:
 
