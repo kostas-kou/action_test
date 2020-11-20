@@ -1,6 +1,5 @@
 # action_test
 allo ena test
-kai akoma ena
 
 ## Parameters
 
@@ -8,6 +7,6 @@ The following tables lists the configurable parameters of the PostgreSQL chart a
 
 Parameter | Description | Default
 --------- | ----------- | -------
-`global.postgresql.postgresqlDatabase` | PostgreSQL database | `nil`
-`global.postgresql.postgresqlUsername` | PostgreSQL username | `nil`
-`global.postgresql.postgresqlPassword` | PostgreSQL admin password | `nil`
+`global.postgresql.postgresqlDatabase` | PostgreSQL database | `rems`
+`global.postgresql.postgresqlUsername` | PostgreSQL username | `random_un_test1`
+`global.postgresql.postgresqlPassword` | PostgreSQL admin password | `random_pw_test3`
