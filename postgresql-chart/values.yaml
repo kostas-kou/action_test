@@ -583,7 +583,7 @@ livenessProbe:
 
 readinessProbe:
   enabled: false
-  initialDelaySeconds: 7
+  initialDelaySeconds: 6
   periodSeconds: 11
   timeoutSeconds: 5
   failureThreshold: 6
