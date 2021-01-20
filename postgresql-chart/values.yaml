@@ -578,7 +578,7 @@ livenessProbe:
   initialDelaySeconds: 31
   periodSeconds: 11
   timeoutSeconds: 5
-  failureThreshold: 6
+  failureThreshold: 7
   successThreshold: 1
 
 readinessProbe:
