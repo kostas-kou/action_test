@@ -585,7 +585,7 @@ readinessProbe:
   enabled: false
   initialDelaySeconds: 8
   periodSeconds: 11
-  timeoutSeconds: 5
+  timeoutSeconds: 8
   failureThreshold: 6
   successThreshold: 2
 
