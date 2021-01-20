@@ -103,6 +103,6 @@ else:
         print("Parameters missing from README file:")
         for missing in parameters_missing:
             print(colours.fg.yellow, missing, colours.reset)
-    if changes:
-        raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
-        print(ValueError.args)
+    #if changes:
+    raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
+    print(ValueError.args)
