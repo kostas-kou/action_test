@@ -53,6 +53,7 @@ file_content = [ line for line in open('postgresql-chart/README.md') ]
 # Create list for parameters that need to be changed or missing
 parameters_modify = []
 parameters_missing = []
+changes = False
 
 # Loop for checking if the changes made in values.yaml have been made also in README
 for k_all in md_dictionary:
@@ -101,5 +102,8 @@ else:
         print("Parameters missing from README file:")
         for missing in parameters_missing:
             print(colours.fg.yellow, missing, colours.reset)
+    changes = True
+    
+if changes:
     raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
     print(ValueError.args)
