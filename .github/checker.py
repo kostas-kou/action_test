@@ -1,6 +1,7 @@
 #!/usr/bin/env python3 
 
 import yaml
+import sys
 
 # Script for checking if the parameters' values are the same 
 # in postgresql-chart/values.yaml and postgresql-chart/README.md files
@@ -105,5 +106,6 @@ else:
     changes = True
     
 if changes:
-    raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
-    print(ValueError.args)
+    #raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
+    #print(ValueError.args)
+    sys.exit("ton poulo")
