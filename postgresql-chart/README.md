@@ -119,7 +119,7 @@ Parameter | Description | Default
 `livenessProbe.failureThreshold` | Minimum consecutive failures for the probe to be considered failed after having succeeded | `6`
 `livenessProbe.successThreshold` | Minimum consecutive successes for the probe to be considered successful after having failed | `1`
 `readinessProbe.enabled` | would you like a readinessProbe to be enabled | `false`
-`readinessProbe.initialDelaySeconds` | Delay before readiness probe is initiated | `5`
+`readinessProbe.initialDelaySeconds` | Delay before readiness probe is initiated | `6`
 `readinessProbe.periodSeconds` | How often to perform the probe | `10`
 `readinessProbe.timeoutSeconds` | When the probe times out | `5`
 `readinessProbe.failureThreshold` | Minimum consecutive failures for the probe to be considered failed after having succeeded | `6`
