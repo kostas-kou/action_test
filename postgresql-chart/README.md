@@ -162,5 +162,5 @@ Parameter | Description | Default
 `metrics.readinessProbe.periodSeconds` | How often to perform the probe | `10`
 `metrics.readinessProbe.timeoutSeconds` | When the probe times out | `5`
 `metrics.readinessProbe.failureThreshold` |	Minimum consecutive failures for the probe to be considered failed after having succeeded | `6`
-`metrics.readinessProbe.successThreshold` | Minimum consecutive successes for the probe to be considered successful after having failed | `1`
+`metrics.readinessProbe.successThreshold` | Minimum consecutive successes for the probe to be considered successful after having failed | `2`
 `extraDeploy` | Array of extra objects to deploy with the release (evaluated as a template) | `[]`
