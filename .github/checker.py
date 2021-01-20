@@ -1,7 +1,6 @@
 #!/usr/bin/env python3 
 
 import yaml
-import sys
 
 # Script for checking if the parameters' values are the same 
 # in postgresql-chart/values.yaml and postgresql-chart/README.md files
@@ -104,7 +103,6 @@ else:
         print("Parameters missing from README file:")
         for missing in parameters_missing:
             print(colours.fg.yellow, missing, colours.reset)
-
-if changes:
-    raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
-    print(ValueError.args)
+    if changes:
+        raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
+        print(ValueError.args)
