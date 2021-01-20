@@ -587,7 +587,7 @@ readinessProbe:
   periodSeconds: 11
   timeoutSeconds: 8
   failureThreshold: 6
-  successThreshold: 2
+  successThreshold: 3
 
 ## Custom Liveness probe
 ##
