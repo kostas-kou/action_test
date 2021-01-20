@@ -7,9 +7,11 @@ on:
   push:
     paths: 
       - postgresql-chart/values.yaml
+      - postgresql-chart/README.md
   pull_request:
     paths:
       - postgresql-chart/values.yaml
+      - postgresql-chart/README.md
 
 jobs:
   build:
