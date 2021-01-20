@@ -575,7 +575,7 @@ networkPolicy:
 ##
 livenessProbe:
   enabled: true
-  initialDelaySeconds: 31
+  initialDelaySeconds: 34
   periodSeconds: 11
   timeoutSeconds: 5
   failureThreshold: 7
