@@ -99,7 +99,7 @@ else:
         for modify in parameters_modify:
             print(colours.fg.yellow, modify, colours.reset)
     if len(parameters_missing) != 0:
-        print("Parameters missing from README file:")
+        print(colours.fg.red, "Parameters missing from README file:", colours.reset)
         for missing in parameters_missing:
             print(colours.fg.yellow, missing, colours.reset)
     changes = True
