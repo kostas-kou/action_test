@@ -107,4 +107,4 @@ else:
     #raise ValueError("Make all the above changes in README.md")
 
 if changes:
-    raise ValueError("Sync the values of the above parameters in README with postgresql-chart/values.yaml")
+    raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
