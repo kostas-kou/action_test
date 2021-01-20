@@ -579,7 +579,7 @@ livenessProbe:
   periodSeconds: 11
   timeoutSeconds: 5
   failureThreshold: 7
-  successThreshold: 1
+  successThreshold: 2
 
 readinessProbe:
   enabled: false
