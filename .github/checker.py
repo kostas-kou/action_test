@@ -17,7 +17,7 @@ class colours:
         green='\033[42m'
 
 #with open('postgresql-chart/values.yaml') as f:
-with open('../postgresql-chart/values.yaml') as f:
+with open('/postgresql-chart/values.yaml') as f:
     md_dictionary = {}
     data = yaml.load(f, Loader=yaml.FullLoader)
     for k, v  in data.items():
@@ -44,7 +44,7 @@ with open('../postgresql-chart/values.yaml') as f:
             md_dictionary.update({key:value})
 
 # Load the file into file_content
-file_content = [ line for line in open('../postgresql-chart/README.md') ]
+file_content = [ line for line in open('/postgresql-chart/README.md') ]
 #file_content = [ line for line in open('postgresql-chart/README_test.md') ]
 
 # Create list for parameters that need to be changed or missing
