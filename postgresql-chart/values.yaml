@@ -575,8 +575,8 @@ networkPolicy:
 ##
 livenessProbe:
   enabled: true
-  initialDelaySeconds: 30
-  periodSeconds: 10
+  initialDelaySeconds: 31
+  periodSeconds: 11
   timeoutSeconds: 5
   failureThreshold: 6
   successThreshold: 1
@@ -587,7 +587,7 @@ readinessProbe:
   periodSeconds: 10
   timeoutSeconds: 5
   failureThreshold: 6
-  successThreshold: 1
+  successThreshold: 2
 
 ## Custom Liveness probe
 ##
