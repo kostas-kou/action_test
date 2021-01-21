@@ -93,19 +93,17 @@ for k_all in md_dictionary:
 
 # Raise error for parameters in case that are not synchronised in the two files 
 if len(parameters_missing) == 0 and len(parameters_modify) == 0: 
-    print("README is synchronized with the parameters in postgresql-chart/values.yaml")
+    print("postgresql-chart/README.md is synchronized with the parameters in postgresql-chart/values.yaml")
 else:
     if len(parameters_modify) != 0:
-        print(colours.fg.red, "Values need to be changed in README:", colours.reset)
+        print(colours.fg.red, "Values need to be changed in postgresql-chart/README.md:", colours.reset)
         for modify in parameters_modify:
             print(colours.fg.yellow, modify, colours.reset)
     if len(parameters_missing) != 0:
-        print(colours.fg.red, "Parameters missing from README file:", colours.reset)
+        print(colours.fg.red, "Parameters missing from postgresql-chart/README.md file:", colours.reset)
         for missing in parameters_missing:
             print(colours.fg.yellow, missing, colours.reset)
     changes = True
     
 if changes:
-    #raise ValueError("Sync the values of the parameters in README with postgresql-chart/values.yaml")
-    #print(ValueError.args)
-    sys.exit("ton poulo")
+    sys.exit(" ")
